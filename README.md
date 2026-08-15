@@ -74,6 +74,7 @@ Running it prints the most likely class along with the probability for every cla
 - I made this to just learn pytorch and CNNs
 - The model was trained on **already-cropped** images where the character fills most of the frame. On a raw screenshot where the character is small or there are multiple characters, you'd need a detection step first — this repo only covers the classification part.
 - Trained on 1,829 training images with a small CNN, so ~64% test accuracy is in the expected range; a larger/more balanced dataset or transfer learning could improve it further.
+- This project is for educational/research purposes only, not for commercial use, and is not affiliated with or endorsed by Valve Corporation.
 
 ## License
 
